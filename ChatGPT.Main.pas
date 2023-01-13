@@ -3,13 +3,13 @@
 interface
 
 uses
-  Winapi.Windows, System.SysUtils, System.Types, System.UITypes, System.Classes, System.Variants,
-  FMX.Types, FMX.Controls, FMX.Forms, FMX.Graphics, FMX.Dialogs, FMX.Memo.Types,
-  FMX.StdCtrls, FMX.Controls.Presentation, FMX.ScrollBox, FMX.Memo, OpenAI,
-  FMX.Objects, FMX.Layouts, FMX.TabControl, FMX.ListBox, ChatGPT.Frame.Code,
-  FMX.Edit, System.ImageList, FMX.ImgList, FMX.Effects, FMX.Filter.Effects,
-  FMX.EditBox, FMX.SpinBox, FMX.ComboEdit, ChatGPT.Frame.Score, OpenAI.Models,
-  OpenAI.Images;
+  Winapi.Windows, System.SysUtils, System.Types, System.UITypes, System.Classes,
+  System.Variants, FMX.Types, FMX.Controls, FMX.Forms, FMX.Graphics, FMX.Dialogs,
+  FMX.Memo.Types, FMX.StdCtrls, FMX.Controls.Presentation, FMX.ScrollBox,
+  FMX.Memo, OpenAI, FMX.Objects, FMX.Layouts, FMX.TabControl, FMX.ListBox,
+  ChatGPT.Frame.Code, FMX.Edit, System.ImageList, FMX.ImgList, FMX.Effects,
+  FMX.Filter.Effects, FMX.EditBox, FMX.SpinBox, FMX.ComboEdit,
+  ChatGPT.Frame.Score, OpenAI.Models, OpenAI.Images;
 
 type
   TFormMain = class(TForm)
@@ -597,7 +597,7 @@ type
   end;
 
 const
-  API_TOKEN = '';
+  API_TOKEN = {$include MY_TOKEN.txt};
 
 var
   FormMain: TFormMain;
