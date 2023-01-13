@@ -596,8 +596,8 @@ type
     { Public declarations }
   end;
 
-const        //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
-  API_TOKEN = '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';
+const
+  API_TOKEN = '';
 
 var
   FormMain: TFormMain;

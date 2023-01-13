@@ -5,6 +5,7 @@ object FormMain: TFormMain
   ClientHeight = 772
   ClientWidth = 1114
   Fill.Kind = Solid
+  Position = ScreenCenter
   StyleBook = StyleBook
   FormFactor.Width = 320
   FormFactor.Height = 480
@@ -1282,8 +1283,8 @@ object FormMain: TFormMain
                   Lines.Strings = (
                     'var OpenAI := TOpenAI.Create(Self, API_TOKEN);')
                   Size.Height = 24.000000000000000000
-                  Viewport.Width = 440.000000000000000000
-                  Viewport.Height = 24.000000000000000000
+                  Viewport.Width = 436.000000000000000000
+                  Viewport.Height = 20.000000000000000000
                 end
               end
             end
