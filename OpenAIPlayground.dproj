@@ -201,6 +201,19 @@
             <FormType>fmx</FormType>
             <DesignClass>TFrame</DesignClass>
         </DCCReference>
+        <DCCReference Include="DelphiOpenAI\OpenAI.API.Params.pas"/>
+        <DCCReference Include="DelphiOpenAI\OpenAI.API.pas"/>
+        <DCCReference Include="DelphiOpenAI\OpenAI.Completions.pas"/>
+        <DCCReference Include="DelphiOpenAI\OpenAI.Edits.pas"/>
+        <DCCReference Include="DelphiOpenAI\OpenAI.Embeddings.pas"/>
+        <DCCReference Include="DelphiOpenAI\OpenAI.Engines.pas"/>
+        <DCCReference Include="DelphiOpenAI\OpenAI.Errors.pas"/>
+        <DCCReference Include="DelphiOpenAI\OpenAI.Files.pas"/>
+        <DCCReference Include="DelphiOpenAI\OpenAI.FineTunes.pas"/>
+        <DCCReference Include="DelphiOpenAI\OpenAI.Images.pas"/>
+        <DCCReference Include="DelphiOpenAI\OpenAI.Models.pas"/>
+        <DCCReference Include="DelphiOpenAI\OpenAI.Moderations.pas"/>
+        <DCCReference Include="DelphiOpenAI\OpenAI.pas"/>
         <BuildConfiguration Include="Base">
             <Key>Base</Key>
         </BuildConfiguration>
