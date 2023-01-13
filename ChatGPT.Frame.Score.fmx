@@ -1,0 +1,35 @@
+object FrameScore: TFrameScore
+  Padding.Top = 4.000000000000000000
+  Padding.Bottom = 4.000000000000000000
+  Size.Width = 617.000000000000000000
+  Size.Height = 25.000000000000000000
+  Size.PlatformDefault = False
+  OnResize = FrameResize
+  object RectangleValue: TRectangle
+    Align = Left
+    Fill.Color = xFF29D3FF
+    Padding.Left = 10.000000000000000000
+    Padding.Right = 10.000000000000000000
+    Position.Y = 4.000000000000000000
+    Size.Width = 241.000000000000000000
+    Size.Height = 17.000000000000000000
+    Size.PlatformDefault = False
+    Stroke.Kind = None
+    XRadius = 7.000000000000000000
+    YRadius = 7.000000000000000000
+  end
+  object LabelTitle: TLabel
+    Align = Contents
+    StyledSettings = [Style]
+    Margins.Left = 20.000000000000000000
+    Margins.Right = 20.000000000000000000
+    Size.Width = 577.000000000000000000
+    Size.Height = 25.000000000000000000
+    Size.PlatformDefault = False
+    TextSettings.Font.Family = 'Roboto'
+    TextSettings.Font.Size = 14.000000000000000000
+    TextSettings.WordWrap = False
+    Text = 'Title'
+    TabOrder = 1
+  end
+end
