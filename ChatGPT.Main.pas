@@ -531,6 +531,7 @@ type
     Label6: TLabel;
     Layout78: TLayout;
     Label97: TLabel;
+    LabelConnecting: TLabel;
     procedure ButtonComplSendClick(Sender: TObject);
     procedure FormCreate(Sender: TObject);
     procedure CheckBoxModelsChange(Sender: TObject);
@@ -585,6 +586,8 @@ type
     procedure ButtonFTListEventsClick(Sender: TObject);
     procedure ButtonFTDeleteClick(Sender: TObject);
     procedure ButtonGitHubClick(Sender: TObject);
+    procedure ButtonGoToAPIKeysClick(Sender: TObject);
+    procedure ButtonFileListClick(Sender: TObject);
   private
     OpenAI: TOpenAI;
     procedure OpenTab(Tab: TTabItem; ScrollToControl: TControl);
@@ -731,6 +734,7 @@ begin
   LayoutContent.Enabled := False;
   AniIndicatorLoad.Enabled := True;
   AniIndicatorLoad.Visible := True;
+  LabelConnecting.Text := 'Connecting...';
   TTask.Run(
     procedure
     begin
@@ -740,6 +744,7 @@ begin
           TThread.Synchronize(nil,
             procedure
             begin
+              LabelConnecting.Text := 'Connecting success';
               FillModels(ComboEditComplModel, Models);
               FillModels(ComboEditEditsModel, Models);
               FillModels(ComboEditEmbModel, Models);
@@ -749,9 +754,15 @@ begin
         end;
       except
         on E: OpenAIException do
+        begin
           ShowError('OpenAI Error: ' + E.Message);
+          LabelConnecting.Text := 'Connecting error';
+        end;
         on E: Exception do
+        begin
           ShowError('Error: ' + E.Message);
+          LabelConnecting.Text := 'Connecting error';
+        end;
       end;
       TThread.Queue(nil,
         procedure
@@ -966,6 +977,51 @@ begin
           ButtonEngRetrieve.Enabled := True;
           AniIndicatorEngRetreive.Enabled := False;
           AniIndicatorEngRetreive.Visible := False;
+        end);
+    end);
+end;
+
+procedure TFormMain.ButtonFileListClick(Sender: TObject);
+begin
+  ButtonFileList.Enabled := False;
+  AniIndicatorFileList.Enabled := True;
+  AniIndicatorFileList.Visible := True;
+  TTask.Run(
+    procedure
+    begin
+      try
+        var Files := OpenAI.&File.List;
+        try
+          TThread.Synchronize(nil,
+            procedure
+            begin
+              ListBoxFileList.Clear;
+              ListBoxFileList.BeginUpdate;
+              for var FileItem in Files.Data do
+              begin
+                var Item := TListBoxItem.Create(ListBoxFileList);
+                Item.Text := FileItem.Id + ' ' + FileItem.FileName;
+                Item.Height := 30;
+                Item.TagString := FileItem.Id;
+                ListBoxFileList.AddObject(Item);
+              end;
+              ListBoxFileList.EndUpdate;
+            end);
+        finally
+          Files.Free;
+        end;
+      except
+        on E: OpenAIException do
+          ShowError('OpenAI Error: ' + E.Message);
+        on E: Exception do
+          ShowError('Error: ' + E.Message);
+      end;
+      TThread.Queue(nil,
+        procedure
+        begin
+          ButtonFileList.Enabled := True;
+          AniIndicatorFileList.Enabled := False;
+          AniIndicatorFileList.Visible := False;
         end);
     end);
 end;
@@ -1490,6 +1546,11 @@ begin
   OpenUrlShell('https://github.com/HemulGM/DelphiOpenAI');
 end;
 
+procedure TFormMain.ButtonGoToAPIKeysClick(Sender: TObject);
+begin
+  OpenUrlShell('https://beta.openai.com/account/api-keys');
+end;
+
 procedure TFormMain.ButtonImageCreateClick(Sender: TObject);
 begin
   OpenTab(TabItemImages, LabelImgCreate);
@@ -1677,32 +1738,32 @@ end;
 
 procedure TFormMain.ButtonModelListExecuteClick(Sender: TObject);
 begin
-  ButtonFileList.Enabled := False;
-  AniIndicatorFileList.Enabled := True;
-  AniIndicatorFileList.Visible := True;
+  ButtonModelList.Enabled := False;
+  AniIndicatorModels.Enabled := True;
+  AniIndicatorModels.Visible := True;
   TTask.Run(
     procedure
     begin
       try
-        var Files := OpenAI.&File.List;
+        var Models := OpenAI.Model.List;
         try
           TThread.Synchronize(nil,
             procedure
             begin
-              ListBoxFileList.Clear;
-              ListBoxFileList.BeginUpdate;
-              for var FileItem in Files.Data do
+              ListBoxModels.Clear;
+              ListBoxModels.BeginUpdate;
+              for var Model in Models.Data do
               begin
-                var Item := TListBoxItem.Create(ListBoxFileList);
-                Item.Text := FileItem.Id + ' ' + FileItem.FileName;
+                var Item := TListBoxItem.Create(ListBoxModels);
+                Item.Text := Model.Id + ' ' + Model.&Object;
                 Item.Height := 30;
-                Item.TagString := FileItem.Id;
-                ListBoxFileList.AddObject(Item);
+                Item.TagString := Model.Id;
+                ListBoxModels.AddObject(Item);
               end;
-              ListBoxFileList.EndUpdate;
+              ListBoxModels.EndUpdate;
             end);
         finally
-          Files.Free;
+          Models.Free;
         end;
       except
         on E: OpenAIException do
@@ -1713,9 +1774,9 @@ begin
       TThread.Queue(nil,
         procedure
         begin
-          ButtonFileList.Enabled := True;
-          AniIndicatorFileList.Enabled := False;
-          AniIndicatorFileList.Visible := False;
+          ButtonModelList.Enabled := True;
+          AniIndicatorModels.Enabled := False;
+          AniIndicatorModels.Visible := False;
         end);
     end);
 end;
