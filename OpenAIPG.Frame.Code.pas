@@ -1,4 +1,4 @@
-﻿unit ChatGPT.Frame.Code;
+﻿unit OpenAIPG.Frame.Code;
 
 interface
 

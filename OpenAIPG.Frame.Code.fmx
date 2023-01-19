@@ -88,8 +88,8 @@ object FrameCode: TFrameCode
       Size.PlatformDefault = False
       StyleLookup = 'memo_style'
       TabOrder = 1
-      Viewport.Width = 436.000000000000000000
-      Viewport.Height = 219.000000000000000000
+      Viewport.Width = 440.000000000000000000
+      Viewport.Height = 223.000000000000000000
     end
   end
 end

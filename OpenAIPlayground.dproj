@@ -187,16 +187,16 @@
         <DelphiCompile Include="$(MainSource)">
             <MainSource>MainSource</MainSource>
         </DelphiCompile>
-        <DCCReference Include="ChatGPT.Main.pas">
+        <DCCReference Include="OpenAIPG.Main.pas">
             <Form>FormMain</Form>
             <FormType>fmx</FormType>
         </DCCReference>
-        <DCCReference Include="ChatGPT.Frame.Code.pas">
+        <DCCReference Include="OpenAIPG.Frame.Code.pas">
             <Form>FrameCode</Form>
             <FormType>fmx</FormType>
             <DesignClass>TFrame</DesignClass>
         </DCCReference>
-        <DCCReference Include="ChatGPT.Frame.Score.pas">
+        <DCCReference Include="OpenAIPG.Frame.Score.pas">
             <Form>FrameScore</Form>
             <FormType>fmx</FormType>
             <DesignClass>TFrame</DesignClass>

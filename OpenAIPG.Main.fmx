@@ -1134,7 +1134,7 @@ object FormMain: TFormMain
       Size.Width = 802.000000000000000000
       Size.Height = 772.000000000000000000
       Size.PlatformDefault = False
-      TabIndex = 2
+      TabIndex = 0
       TabOrder = 5
       TabPosition = PlatformDefault
       Sizes = (
@@ -1162,7 +1162,7 @@ object FormMain: TFormMain
         CustomIcon = <
           item
           end>
-        IsSelected = False
+        IsSelected = True
         Size.Width = 53.000000000000000000
         Size.Height = 26.000000000000000000
         Size.PlatformDefault = False
@@ -1349,8 +1349,8 @@ object FormMain: TFormMain
                   Lines.Strings = (
                     'var OpenAI := TOpenAI.Create(Self, API_TOKEN);')
                   Size.Height = 24.000000000000000000
-                  Viewport.Width = 436.000000000000000000
-                  Viewport.Height = 20.000000000000000000
+                  Viewport.Width = 440.000000000000000000
+                  Viewport.Height = 24.000000000000000000
                 end
               end
             end
@@ -1553,7 +1553,7 @@ object FormMain: TFormMain
                 TextSettings.FontColor = xFFA72693
                 TextSettings.WordWrap = False
                 Text = 'for Delphi'
-                TabOrder = 4
+                TabOrder = 3
               end
             end
           end
@@ -1776,8 +1776,8 @@ object FormMain: TFormMain
                     '  Models.Free;'
                     'end;')
                   Size.Height = 132.000000000000000000
-                  Viewport.Width = 436.000000000000000000
-                  Viewport.Height = 128.000000000000000000
+                  Viewport.Width = 440.000000000000000000
+                  Viewport.Height = 132.000000000000000000
                 end
               end
             end
@@ -1840,8 +1840,8 @@ object FormMain: TFormMain
                     '  Model.Free;'
                     'end; ')
                   Size.Height = 113.000000000000000000
-                  Viewport.Width = 436.000000000000000000
-                  Viewport.Height = 109.000000000000000000
+                  Viewport.Width = 440.000000000000000000
+                  Viewport.Height = 113.000000000000000000
                 end
               end
             end
@@ -1955,7 +1955,7 @@ object FormMain: TFormMain
         CustomIcon = <
           item
           end>
-        IsSelected = True
+        IsSelected = False
         Size.Width = 87.000000000000000000
         Size.Height = 26.000000000000000000
         Size.PlatformDefault = False
@@ -2053,8 +2053,8 @@ object FormMain: TFormMain
                 Size.Height = 264.000000000000000000
                 inherited MemoCode: TMemo
                   Size.Height = 218.000000000000000000
-                  Viewport.Width = 436.000000000000000000
-                  Viewport.Height = 214.000000000000000000
+                  Viewport.Width = 440.000000000000000000
+                  Viewport.Height = 218.000000000000000000
                 end
               end
             end
@@ -2631,8 +2631,8 @@ object FormMain: TFormMain
                 Size.PlatformDefault = False
                 StyleLookup = 'memo_style'
                 TabOrder = 4
-                Viewport.Width = 481.000000000000000000
-                Viewport.Height = 356.000000000000000000
+                Viewport.Width = 485.000000000000000000
+                Viewport.Height = 360.000000000000000000
               end
               object LayoutComplCreate: TLayout
                 Align = Bottom
@@ -2700,8 +2700,8 @@ object FormMain: TFormMain
                   TabOrder = 5
                   ParentShowHint = False
                   ShowHint = True
-                  Viewport.Width = 376.000000000000000000
-                  Viewport.Height = 86.000000000000000000
+                  Viewport.Width = 380.000000000000000000
+                  Viewport.Height = 90.000000000000000000
                 end
               end
             end
@@ -2823,8 +2823,8 @@ object FormMain: TFormMain
                     '  Edits.Free;'
                     'end;')
                   Size.Height = 201.000000000000000000
-                  Viewport.Width = 436.000000000000000000
-                  Viewport.Height = 197.000000000000000000
+                  Viewport.Width = 440.000000000000000000
+                  Viewport.Height = 201.000000000000000000
                 end
               end
             end
@@ -3070,8 +3070,8 @@ object FormMain: TFormMain
                 Size.PlatformDefault = False
                 StyleLookup = 'memo_style'
                 TabOrder = 4
-                Viewport.Width = 481.000000000000000000
-                Viewport.Height = 356.000000000000000000
+                Viewport.Width = 485.000000000000000000
+                Viewport.Height = 360.000000000000000000
               end
               object LayoutEditsSend: TLayout
                 Align = Bottom
@@ -3133,8 +3133,8 @@ object FormMain: TFormMain
                   TabOrder = 5
                   ParentShowHint = False
                   ShowHint = True
-                  Viewport.Width = 376.000000000000000000
-                  Viewport.Height = 86.000000000000000000
+                  Viewport.Width = 380.000000000000000000
+                  Viewport.Height = 90.000000000000000000
                 end
               end
             end
@@ -3255,8 +3255,8 @@ object FormMain: TFormMain
                     '  Images.Free;'
                     'end;')
                   Size.Height = 218.000000000000000000
-                  Viewport.Width = 436.000000000000000000
-                  Viewport.Height = 214.000000000000000000
+                  Viewport.Width = 440.000000000000000000
+                  Viewport.Height = 218.000000000000000000
                 end
               end
             end
@@ -3470,8 +3470,8 @@ object FormMain: TFormMain
                   TabOrder = 5
                   ParentShowHint = False
                   ShowHint = True
-                  Viewport.Width = 376.000000000000000000
-                  Viewport.Height = 86.000000000000000000
+                  Viewport.Width = 380.000000000000000000
+                  Viewport.Height = 90.000000000000000000
                 end
               end
               object VertScrollBoxImgCreateResult: TVertScrollBox
@@ -3795,8 +3795,8 @@ object FormMain: TFormMain
                   TabOrder = 5
                   ParentShowHint = False
                   ShowHint = True
-                  Viewport.Width = 376.000000000000000000
-                  Viewport.Height = 86.000000000000000000
+                  Viewport.Width = 380.000000000000000000
+                  Viewport.Height = 90.000000000000000000
                 end
               end
               object VertScrollBoxImgEditResult: TVertScrollBox
@@ -4187,8 +4187,8 @@ object FormMain: TFormMain
                     '  Images.Free;'
                     'end;')
                   Size.Height = 203.000000000000000000
-                  Viewport.Width = 436.000000000000000000
-                  Viewport.Height = 199.000000000000000000
+                  Viewport.Width = 440.000000000000000000
+                  Viewport.Height = 203.000000000000000000
                 end
               end
             end
@@ -4341,8 +4341,8 @@ object FormMain: TFormMain
                     '  Embeddings.Free;'
                     'end;')
                   Size.Height = 273.000000000000000000
-                  Viewport.Width = 436.000000000000000000
-                  Viewport.Height = 269.000000000000000000
+                  Viewport.Width = 440.000000000000000000
+                  Viewport.Height = 273.000000000000000000
                 end
               end
             end
@@ -4474,8 +4474,8 @@ object FormMain: TFormMain
                 Size.PlatformDefault = False
                 StyleLookup = 'memo_style'
                 TabOrder = 4
-                Viewport.Width = 481.000000000000000000
-                Viewport.Height = 356.000000000000000000
+                Viewport.Width = 485.000000000000000000
+                Viewport.Height = 360.000000000000000000
               end
               object LayoutEmbCreate: TLayout
                 Align = Bottom
@@ -4541,8 +4541,8 @@ object FormMain: TFormMain
                   TabOrder = 5
                   ParentShowHint = False
                   ShowHint = True
-                  Viewport.Width = 376.000000000000000000
-                  Viewport.Height = 86.000000000000000000
+                  Viewport.Width = 380.000000000000000000
+                  Viewport.Height = 90.000000000000000000
                 end
               end
             end
@@ -4658,8 +4658,8 @@ object FormMain: TFormMain
                     '  Files.Free;'
                     'end;')
                   Size.Height = 133.000000000000000000
-                  Viewport.Width = 436.000000000000000000
-                  Viewport.Height = 129.000000000000000000
+                  Viewport.Width = 440.000000000000000000
+                  Viewport.Height = 133.000000000000000000
                 end
               end
             end
@@ -4878,8 +4878,8 @@ object FormMain: TFormMain
                 Size.PlatformDefault = False
                 StyleLookup = 'memo_style'
                 TabOrder = 5
-                Viewport.Width = 722.000000000000000000
-                Viewport.Height = 198.000000000000000000
+                Viewport.Width = 726.000000000000000000
+                Viewport.Height = 202.000000000000000000
               end
             end
           end
@@ -4913,8 +4913,8 @@ object FormMain: TFormMain
                     '  FileItem.Free;'
                     'end; ')
                   Size.Height = 203.000000000000000000
-                  Viewport.Width = 436.000000000000000000
-                  Viewport.Height = 199.000000000000000000
+                  Viewport.Width = 440.000000000000000000
+                  Viewport.Height = 203.000000000000000000
                 end
               end
             end
@@ -5078,8 +5078,8 @@ object FormMain: TFormMain
                 Size.PlatformDefault = False
                 StyleLookup = 'memo_style'
                 TabOrder = 5
-                Viewport.Width = 722.000000000000000000
-                Viewport.Height = 172.000000000000000000
+                Viewport.Width = 726.000000000000000000
+                Viewport.Height = 176.000000000000000000
               end
             end
           end
@@ -5139,8 +5139,8 @@ object FormMain: TFormMain
                     '  FileItem.Free;'
                     'end; ')
                   Size.Height = 114.000000000000000000
-                  Viewport.Width = 436.000000000000000000
-                  Viewport.Height = 110.000000000000000000
+                  Viewport.Width = 440.000000000000000000
+                  Viewport.Height = 114.000000000000000000
                 end
               end
             end
@@ -5170,8 +5170,8 @@ object FormMain: TFormMain
                     '  FileItem.Free;'
                     'end;')
                   Size.Height = 118.000000000000000000
-                  Viewport.Width = 436.000000000000000000
-                  Viewport.Height = 114.000000000000000000
+                  Viewport.Width = 440.000000000000000000
+                  Viewport.Height = 118.000000000000000000
                 end
               end
             end
@@ -5551,8 +5551,8 @@ object FormMain: TFormMain
                     '  FineTune.Free;'
                     'end;')
                   Size.Height = 184.000000000000000000
-                  Viewport.Width = 436.000000000000000000
-                  Viewport.Height = 180.000000000000000000
+                  Viewport.Width = 440.000000000000000000
+                  Viewport.Height = 184.000000000000000000
                 end
               end
             end
@@ -5614,8 +5614,8 @@ object FormMain: TFormMain
                     '  FineTunes.Free;'
                     'end; ')
                   Size.Height = 131.000000000000000000
-                  Viewport.Width = 436.000000000000000000
-                  Viewport.Height = 127.000000000000000000
+                  Viewport.Width = 440.000000000000000000
+                  Viewport.Height = 131.000000000000000000
                 end
               end
             end
@@ -6312,8 +6312,8 @@ object FormMain: TFormMain
                 Size.PlatformDefault = False
                 StyleLookup = 'memo_style'
                 TabOrder = 5
-                Viewport.Width = 722.000000000000000000
-                Viewport.Height = 309.000000000000000000
+                Viewport.Width = 726.000000000000000000
+                Viewport.Height = 313.000000000000000000
               end
             end
           end
@@ -6342,8 +6342,8 @@ object FormMain: TFormMain
                     '  FineTune.Free;'
                     'end; ')
                   Size.Height = 113.000000000000000000
-                  Viewport.Width = 436.000000000000000000
-                  Viewport.Height = 109.000000000000000000
+                  Viewport.Width = 440.000000000000000000
+                  Viewport.Height = 113.000000000000000000
                 end
               end
             end
@@ -6474,8 +6474,8 @@ object FormMain: TFormMain
                 Size.PlatformDefault = False
                 StyleLookup = 'memo_style'
                 TabOrder = 5
-                Viewport.Width = 722.000000000000000000
-                Viewport.Height = 297.000000000000000000
+                Viewport.Width = 726.000000000000000000
+                Viewport.Height = 301.000000000000000000
               end
             end
           end
@@ -6504,8 +6504,8 @@ object FormMain: TFormMain
                     '  FineTune.Free;'
                     'end; ')
                   Size.Height = 113.000000000000000000
-                  Viewport.Width = 436.000000000000000000
-                  Viewport.Height = 109.000000000000000000
+                  Viewport.Width = 440.000000000000000000
+                  Viewport.Height = 113.000000000000000000
                 end
               end
             end
@@ -6685,8 +6685,8 @@ object FormMain: TFormMain
                     '  FTEvents.Free;'
                     'end; ')
                   Size.Height = 131.000000000000000000
-                  Viewport.Width = 436.000000000000000000
-                  Viewport.Height = 127.000000000000000000
+                  Viewport.Width = 440.000000000000000000
+                  Viewport.Height = 131.000000000000000000
                 end
               end
             end
@@ -6817,8 +6817,8 @@ object FormMain: TFormMain
                 Size.PlatformDefault = False
                 StyleLookup = 'memo_style'
                 TabOrder = 5
-                Viewport.Width = 722.000000000000000000
-                Viewport.Height = 172.000000000000000000
+                Viewport.Width = 726.000000000000000000
+                Viewport.Height = 176.000000000000000000
               end
             end
           end
@@ -6849,8 +6849,8 @@ object FormMain: TFormMain
                     '  DeleteInfo.Free;'
                     'end;')
                   Size.Height = 118.000000000000000000
-                  Viewport.Width = 436.000000000000000000
-                  Viewport.Height = 114.000000000000000000
+                  Viewport.Width = 440.000000000000000000
+                  Viewport.Height = 118.000000000000000000
                 end
               end
             end
@@ -7003,8 +7003,8 @@ object FormMain: TFormMain
                     '  Moderations.Free;'
                     'end;')
                   Size.Height = 236.000000000000000000
-                  Viewport.Width = 436.000000000000000000
-                  Viewport.Height = 232.000000000000000000
+                  Viewport.Width = 440.000000000000000000
+                  Viewport.Height = 236.000000000000000000
                 end
               end
             end
@@ -7152,8 +7152,8 @@ object FormMain: TFormMain
                   TabOrder = 5
                   ParentShowHint = False
                   ShowHint = True
-                  Viewport.Width = 376.000000000000000000
-                  Viewport.Height = 86.000000000000000000
+                  Viewport.Width = 380.000000000000000000
+                  Viewport.Height = 90.000000000000000000
                 end
               end
               object Layout20: TLayout
@@ -7505,8 +7505,8 @@ object FormMain: TFormMain
                     '  Engines.Free;'
                     'end;')
                   Size.Height = 132.000000000000000000
-                  Viewport.Width = 436.000000000000000000
-                  Viewport.Height = 128.000000000000000000
+                  Viewport.Width = 440.000000000000000000
+                  Viewport.Height = 132.000000000000000000
                 end
               end
             end
@@ -7592,8 +7592,8 @@ object FormMain: TFormMain
                     '  Engine.Free;'
                     'end; ')
                   Size.Height = 113.000000000000000000
-                  Viewport.Width = 436.000000000000000000
-                  Viewport.Height = 109.000000000000000000
+                  Viewport.Width = 440.000000000000000000
+                  Viewport.Height = 113.000000000000000000
                 end
               end
             end
@@ -7696,8 +7696,8 @@ object FormMain: TFormMain
                 Size.PlatformDefault = False
                 StyleLookup = 'memo_style'
                 TabOrder = 5
-                Viewport.Width = 722.000000000000000000
-                Viewport.Height = 416.000000000000000000
+                Viewport.Width = 726.000000000000000000
+                Viewport.Height = 420.000000000000000000
               end
             end
           end
@@ -7790,6 +7790,10 @@ object FormMain: TFormMain
     Filter = 'PNG-images|*.png'
     Left = 35
     Top = 475
+  end
+  object SaveDialogFilesContent: TSaveDialog
+    Left = 36
+    Top = 367
   end
   object ImageList: TImageList
     Source = <
@@ -7977,9 +7981,5 @@ object FormMain: TFormMain
       end>
     Left = 31
     Top = 544
-  end
-  object SaveDialogFilesContent: TSaveDialog
-    Left = 36
-    Top = 367
   end
 end

@@ -3,9 +3,9 @@
 uses
   System.StartUpCopy,
   FMX.Forms,
-  ChatGPT.Main in 'ChatGPT.Main.pas' {FormMain},
-  ChatGPT.Frame.Code in 'ChatGPT.Frame.Code.pas' {FrameCode: TFrame},
-  ChatGPT.Frame.Score in 'ChatGPT.Frame.Score.pas' {FrameScore: TFrame},
+  OpenAIPG.Main in 'OpenAIPG.Main.pas' {FormMain},
+  OpenAIPG.Frame.Code in 'OpenAIPG.Frame.Code.pas' {FrameCode: TFrame},
+  OpenAIPG.Frame.Score in 'OpenAIPG.Frame.Score.pas' {FrameScore: TFrame},
   OpenAI.API.Params in 'DelphiOpenAI\OpenAI.API.Params.pas',
   OpenAI.API in 'DelphiOpenAI\OpenAI.API.pas',
   OpenAI.Completions in 'DelphiOpenAI\OpenAI.Completions.pas',

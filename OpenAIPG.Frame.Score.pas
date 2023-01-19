@@ -1,4 +1,4 @@
-﻿unit ChatGPT.Frame.Score;
+﻿unit OpenAIPG.Frame.Score;
 
 interface
 

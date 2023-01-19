@@ -1,4 +1,4 @@
-﻿unit ChatGPT.Main;
+﻿unit OpenAIPG.Main;
 
 interface
 
@@ -7,9 +7,9 @@ uses
   System.Variants, FMX.Types, FMX.Controls, FMX.Forms, FMX.Graphics, FMX.Dialogs,
   FMX.Memo.Types, FMX.StdCtrls, FMX.Controls.Presentation, FMX.ScrollBox,
   FMX.Memo, OpenAI, FMX.Objects, FMX.Layouts, FMX.TabControl, FMX.ListBox,
-  ChatGPT.Frame.Code, FMX.Edit, System.ImageList, FMX.ImgList, FMX.Effects,
-  FMX.Filter.Effects, FMX.EditBox, FMX.SpinBox, FMX.ComboEdit,
-  ChatGPT.Frame.Score, OpenAI.Models, OpenAI.Images;
+  FMX.Edit, System.ImageList, FMX.ImgList, FMX.Effects, FMX.Filter.Effects,
+  FMX.EditBox, FMX.SpinBox, FMX.ComboEdit, OpenAI.Models, OpenAI.Images,
+  OpenAIPG.Frame.Score, OpenAIPG.Frame.Code;
 
 type
   TFormMain = class(TForm)
