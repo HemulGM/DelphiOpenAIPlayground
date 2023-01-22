@@ -1349,8 +1349,8 @@ object FormMain: TFormMain
                   Lines.Strings = (
                     'var OpenAI := TOpenAI.Create(Self, API_TOKEN);')
                   Size.Height = 24.000000000000000000
-                  Viewport.Width = 440.000000000000000000
-                  Viewport.Height = 24.000000000000000000
+                  Viewport.Width = 436.000000000000000000
+                  Viewport.Height = 20.000000000000000000
                 end
               end
             end
@@ -1375,8 +1375,8 @@ object FormMain: TFormMain
                   Lines.Strings = (
                     'var OpenAI := TOpenAI.Create(nil);')
                   Size.Height = 24.000000000000000000
-                  Viewport.Width = 440.000000000000000000
-                  Viewport.Height = 24.000000000000000000
+                  Viewport.Width = 436.000000000000000000
+                  Viewport.Height = 20.000000000000000000
                 end
               end
             end
@@ -1464,64 +1464,65 @@ object FormMain: TFormMain
             object Path3: TPath
               Align = Left
               Data.Path = {
-                980000000000000014AED941AE474141020000003D0ADF41B81E214102000000
-                3333DD410AD7FB4002000000D7A3D441AE47C140020000008FC2C741295C4F40
-                020000000AD7AD416866E63F020000005C8F94417B141E4002000000AE478941
-                0AD7633F02000000713D72410AD723BC02000000EC5150410000000002000000
-                D8A31C410000000002000000A570DD40B81E054002000000A570BD40CDCCA440
-                0200000092C275405C8FB2400200000036330340F628DC40020000000400803F
-                1F850B41020000004AB81EBFEC51384102000000E0FF7FBED8A3704102000000
-                94C2F53F1F858B41020000000400A03F9A999B4102000000A870BD3F3433AD41
-                020000003633234090C2BB4102000000BA1E8540713DD24102000000CECCEC40
-                90C2DD4102000000BA1E29416766D8410200000020853F413E0AE54102000000
-                0CD75F41EC51EC410200000048E18041713DEC410200000052B89A41713DEC41
-                0200000015AEB1419A99DB410200000015AEB9413E0AC34102000000EC51CA41
-                9A99BF4102000000D8A3D8413433B54102000000C3F5E041E27AA64102000000
-                0000EE417C149041020000003E0AEB410CD767410200000015AED941A5704141
-                0300000014AED941AE47414100000000AE47C741EB51E040020000006666CC41
-                7B14024102000000EB51CE413D0A1741020000005C8FCC41295C2B4102000000
-                703DCC4148E12A41020000009999CB41713D2A41020000003333CB418FC22941
-                01000000F6289C4151B8E6400200000090C29941AD47E14002000000CDCC9641
-                AD47E140020000006766944151B8E640010000005E8F3A413D0A334101000000
-                5E8F3A41EB51044101000000CECC8A41285C9F40020000000100A041CBCC5C40
-                020000003F0ABB411E858B4002000000AF47C741EA51E04003000000AE47C741
-                EB51E040000000005C8F3A41AE47514101000000C2F568416666364101000000
-                14AE8B41AE4751410100000014AE8B41A470834101000000C2F5684148E19041
-                010000005C8F3A41A4708341010000005C8F3A41AE475141030000005C8F3A41
-                AE47514100000000F62850413D0AF73F02000000C3F564413D0AF73F02000000
-                C3F57841EB51184002000000E17A8441A4704D4002000000F528844152B84E40
-                020000001E85834185EB5140020000003D0A83410AD7534001000000FFFF2741
-                6666D64002000000323323410AD7DB4002000000EB5120417A14E64002000000
-                EB512041AE47F14001000000EB512041000078410100000014AEEF40D7A36041
-                0100000014AEEF4052B8EE400200000014AEEF40CDCC8C4002000000295C1F41
-                3C0AF73F02000000EC51504190C2F53F03000000F62850413D0AF73F00000000
-                1F852B403D0A1B41010000001F852B403D0A1B4102000000B81E5540B81E0941
-                0200000048E18A4051B8F6400200000086EBB140EA51E8400100000086EBB140
-                FFFF63410200000086EBB140999969410200000015AEB7405B8F6E4102000000
-                AF47C140A37071410100000052B84E41E17A9841010000007B142641703DA441
-                0100000067669640FFFF8941020000000BD703401D857B41020000003633933F
-                A27045410200000020852B403C0A1B41030000001F852B403D0A1B4100000000
-                295C8740F628B44101000000295C8740F628B44102000000B81E6540AE47AB41
-                020000006666564052B8A04102000000E17A64405C8F9641020000003D0A6740
-                CDCC964102000000F5286C40B81E974102000000295C6F40295C974101000000
-                85EB19415C8FB2410200000052B81E4185EBB34102000000D7A3244185EBB341
-                02000000A47029415C8FB2410100000090C28B4152B892410100000090C28B41
-                7B14AA4101000000E27A3C41EC51C441020000007C141241E27AD04102000000
-                0100B840AF47C941020000003F0A8740F628B44103000000295C8740F628B441
-                00000000C3F58041CDCCDC4102000000AF476D41CDCCDC4102000000B91E5941
-                3333D94102000000AF4749415C8FD2410200000086EB49416666D24102000000
-                2A5C4B410000D24102000000F7284C418FC2D14101000000B91E9541D7A3B641
-                020000001F859741AE47B541020000003E0A994152B8B24102000000C3F59841
-                85EBAF4101000000C3F59841D7A36041010000003433AD410000784101000000
-                3433AD415C8FB041020000003433AD413D0AC941020000002A5C994148E1DC41
-                02000000C3F5804148E1DC4103000000C3F58041CDCCDC410000000015AED341
-                52B89E4102000000E27ACE4115AEA74102000000EC51C6415C8FAE4102000000
-                D8A3BC417B14B24101000000D8A3BC41EC51744102000000D8A3BC4152B86E41
-                020000003433BB419A99694102000000CECCB84148E1664101000000CECCB841
-                48E166410100000016AE8141343327410100000087EB95410BD70F4101000000
-                A670C341EC51444102000000D9A3D841CDCC5C41020000000CD7DF41A4708941
-                020000009C99D341D7A39E410300000015AED34152B89E410300000015AED341
-                52B89E41}
+                9C000000000000008941B241D1221D41020000009598B64134FB024102000000
+                8217B541B0B5CC4002000000C420AE41EA269D4002000000BEA7A341FC752840
+                02000000ED9A8E4134E3BA3F020000009018744138B40040020000008E445041
+                00D0F5BE0200000090E91241C02B2FBF02000000061CD6402C0AC73F02000000
+                24D4BC4047F8104002000000C6F5A9400DE74A400200000058649F4092C28540
+                02000000A1C05240A2D59040020000005404EB3F02A7B24002000000D0A57B3F
+                608FE240020000006065AEBED9AE154102000000806A24BDC89A434102000000
+                84EDDC3F00D5624102000000E021973F0EFA7C410200000078ECAE3F94CE8C41
+                02000000981A0F403AB498410200000042FF6240DCF0AA4102000000B3C1C540
+                3751B4410200000016040C416EE7AF41020000009A4F1E41D435BA4102000000
+                959938415813C04102000000F62854410000C041020000008E4D7E41E304C041
+                02000000ACD191418D6AB24102000000894198411C5A9E41020000003CC1A541
+                8E939B4102000000BC67B1419E1F934102000000643BB841E826874102000000
+                20B1C241E7F7694102000000C347C041C34C3C41020000008841B241CE221D41
+                030000008941B241D1221D4100000000F6285441A470B34102000000E9574341
+                3A74B34102000000A20D33413682B04102000000DE242641B81EAB4101000000
+                67662841D578AA410100000030DD744173689441020000009ABA784189459341
+                020000009F1C7B41A833914102000000D2227B41C3F58E4101000000D2227B41
+                C6203241010000005FBA8D41E7D0444102000000D8E38D41EEFA444102000000
+                C5008E41184A45410200000031088E41E5A545410100000031088E41EE7C8F41
+                02000000F7FC8D414253A34102000000E3D57B415665B3410200000018295441
+                A470B34103000000F6285441A470B3410000000066666640986E924102000000
+                D4A344401E268B4102000000E48338404F9C824102000000F6284440D9A37441
+                010000007D3F4D40020076410100000014AEFF40701291410200000074B10341
+                A7339241020000007F770841A733924102000000EA510C417012914101000000
+                D8CE6941743D6C4101000000D8CE6941AAC688410200000057CB694125F98841
+                0200000078996941FF27894102000000AD476941A4458941010000000AD71B41
+                9A999F4102000000B2DDF2400181A9410200000068F89A40FA9CA34102000000
+                68666640986E92410300000066666640986E9241000000008FC2154008ACFC40
+                0200000000BE3740EA58DF400200000024626D4052FBC840020000008E979640
+                3889BD40010000008E9796409A99394102000000817A96403D113E4102000000
+                643C9B402E364241020000000C02A3407E6A444101000000448B2E4192187A41
+                0100000058390E4159648641020000005DDE0D41617C86410200000083710D41
+                617C86410200000088160D415964864101000000683B7F403D35604102000000
+                34A3EB3F664F4C4102000000D4508D3F3A602041020000008FC215406EE7FB40
+                030000008FC2154008ACFC4000000000FA7E974118043C4101000000FCA95141
+                F1D20541010000006DE771416666E64002000000694272414506E64002000000
+                43AF72414506E640020000003F0A73416666E64001000000F628A04122DB1F41
+                02000000D35CB141F7AF3341020000001245B741A1A75F4102000000A85AAD41
+                AE07814102000000A42CA9410A488841020000007998A241E5D88D4102000000
+                82C09A419BC490410100000082C09A4120B04641020000000FAF9A41263B4241
+                0200000051729941F92C3E4102000000FA7E974117043C4103000000FA7E9741
+                18043C41000000007593A741E3A50B4101000000B072A641BA490A4101000000
+                894180414F8DBB400200000051A27C412401B7400200000077D477412401B740
+                02000000B6F373414F8DBB4001000000448B164114AE134101000000448B1641
+                39B4DC4002000000228116414EF0DB400200000012AD1641DE30DB4002000000
+                F4FD164183C0DA4001000000A24564416891814002000000485E834136CC3340
+                020000009A609941CE3C6340020000006D4BA341428CB64002000000497AA741
+                279FD34002000000EEFDA841F29FF540020000007593A74110580B4103000000
+                7593A741E3A50B410000000079E90441D9CE4D41010000001B2FC9401A2F3B41
+                020000009386C8408EFC3A41020000005014C840DBA63A4102000000CFF7C740
+                A1453A4101000000CFF7C7406666C24002000000951FC840CDBE654002000000
+                2F5C0441641CCA3F02000000E01F2C4178BBCA3F02000000B2E03C417CFECA3F
+                0200000058184D4138FCF93F02000000C2FB594156CE27400100000020B65741
+                0EED2C400100000096430B4152B8AE400200000099640741EE41B34002000000
+                E9000541D289BB4002000000DCF904411283C4400300000079E90441D9CE4D41
+                00000000C9761641CFF727410100000094184041CFF70F4101000000DACE6941
+                CFF7274101000000DACE6941B6F35741010000008A414041B6F36F4101000000
+                448B1641B6F3574103000000C9761641CFF72741}
               Fill.Color = claBlack
               Size.Width = 113.000000000000000000
               Size.Height = 143.000000000000000000
@@ -1553,7 +1554,7 @@ object FormMain: TFormMain
                 TextSettings.FontColor = xFFA72693
                 TextSettings.WordWrap = False
                 Text = 'for Delphi'
-                TabOrder = 3
+                TabOrder = 4
               end
             end
           end
@@ -1776,8 +1777,8 @@ object FormMain: TFormMain
                     '  Models.Free;'
                     'end;')
                   Size.Height = 132.000000000000000000
-                  Viewport.Width = 440.000000000000000000
-                  Viewport.Height = 132.000000000000000000
+                  Viewport.Width = 436.000000000000000000
+                  Viewport.Height = 128.000000000000000000
                 end
               end
             end
@@ -1944,8 +1945,8 @@ object FormMain: TFormMain
                 Size.PlatformDefault = False
                 StyleLookup = 'memo_style'
                 TabOrder = 5
-                Viewport.Width = 726.000000000000000000
-                Viewport.Height = 420.000000000000000000
+                Viewport.Width = 722.000000000000000000
+                Viewport.Height = 416.000000000000000000
               end
             end
           end
@@ -2053,8 +2054,8 @@ object FormMain: TFormMain
                 Size.Height = 264.000000000000000000
                 inherited MemoCode: TMemo
                   Size.Height = 218.000000000000000000
-                  Viewport.Width = 440.000000000000000000
-                  Viewport.Height = 218.000000000000000000
+                  Viewport.Width = 436.000000000000000000
+                  Viewport.Height = 214.000000000000000000
                 end
               end
             end
@@ -2631,8 +2632,8 @@ object FormMain: TFormMain
                 Size.PlatformDefault = False
                 StyleLookup = 'memo_style'
                 TabOrder = 4
-                Viewport.Width = 485.000000000000000000
-                Viewport.Height = 360.000000000000000000
+                Viewport.Width = 481.000000000000000000
+                Viewport.Height = 356.000000000000000000
               end
               object LayoutComplCreate: TLayout
                 Align = Bottom
@@ -2700,8 +2701,8 @@ object FormMain: TFormMain
                   TabOrder = 5
                   ParentShowHint = False
                   ShowHint = True
-                  Viewport.Width = 380.000000000000000000
-                  Viewport.Height = 90.000000000000000000
+                  Viewport.Width = 376.000000000000000000
+                  Viewport.Height = 86.000000000000000000
                 end
               end
             end
@@ -2823,8 +2824,8 @@ object FormMain: TFormMain
                     '  Edits.Free;'
                     'end;')
                   Size.Height = 201.000000000000000000
-                  Viewport.Width = 440.000000000000000000
-                  Viewport.Height = 201.000000000000000000
+                  Viewport.Width = 436.000000000000000000
+                  Viewport.Height = 197.000000000000000000
                 end
               end
             end
@@ -3070,8 +3071,8 @@ object FormMain: TFormMain
                 Size.PlatformDefault = False
                 StyleLookup = 'memo_style'
                 TabOrder = 4
-                Viewport.Width = 485.000000000000000000
-                Viewport.Height = 360.000000000000000000
+                Viewport.Width = 481.000000000000000000
+                Viewport.Height = 356.000000000000000000
               end
               object LayoutEditsSend: TLayout
                 Align = Bottom
@@ -3133,8 +3134,8 @@ object FormMain: TFormMain
                   TabOrder = 5
                   ParentShowHint = False
                   ShowHint = True
-                  Viewport.Width = 380.000000000000000000
-                  Viewport.Height = 90.000000000000000000
+                  Viewport.Width = 376.000000000000000000
+                  Viewport.Height = 86.000000000000000000
                 end
               end
             end
@@ -3470,8 +3471,8 @@ object FormMain: TFormMain
                   TabOrder = 5
                   ParentShowHint = False
                   ShowHint = True
-                  Viewport.Width = 380.000000000000000000
-                  Viewport.Height = 90.000000000000000000
+                  Viewport.Width = 376.000000000000000000
+                  Viewport.Height = 86.000000000000000000
                 end
               end
               object VertScrollBoxImgCreateResult: TVertScrollBox
@@ -3795,8 +3796,8 @@ object FormMain: TFormMain
                   TabOrder = 5
                   ParentShowHint = False
                   ShowHint = True
-                  Viewport.Width = 380.000000000000000000
-                  Viewport.Height = 90.000000000000000000
+                  Viewport.Width = 376.000000000000000000
+                  Viewport.Height = 86.000000000000000000
                 end
               end
               object VertScrollBoxImgEditResult: TVertScrollBox
@@ -4474,8 +4475,8 @@ object FormMain: TFormMain
                 Size.PlatformDefault = False
                 StyleLookup = 'memo_style'
                 TabOrder = 4
-                Viewport.Width = 485.000000000000000000
-                Viewport.Height = 360.000000000000000000
+                Viewport.Width = 481.000000000000000000
+                Viewport.Height = 356.000000000000000000
               end
               object LayoutEmbCreate: TLayout
                 Align = Bottom
@@ -4541,8 +4542,8 @@ object FormMain: TFormMain
                   TabOrder = 5
                   ParentShowHint = False
                   ShowHint = True
-                  Viewport.Width = 380.000000000000000000
-                  Viewport.Height = 90.000000000000000000
+                  Viewport.Width = 376.000000000000000000
+                  Viewport.Height = 86.000000000000000000
                 end
               end
             end
@@ -4878,8 +4879,8 @@ object FormMain: TFormMain
                 Size.PlatformDefault = False
                 StyleLookup = 'memo_style'
                 TabOrder = 5
-                Viewport.Width = 726.000000000000000000
-                Viewport.Height = 202.000000000000000000
+                Viewport.Width = 722.000000000000000000
+                Viewport.Height = 198.000000000000000000
               end
             end
           end
@@ -5078,8 +5079,8 @@ object FormMain: TFormMain
                 Size.PlatformDefault = False
                 StyleLookup = 'memo_style'
                 TabOrder = 5
-                Viewport.Width = 726.000000000000000000
-                Viewport.Height = 176.000000000000000000
+                Viewport.Width = 722.000000000000000000
+                Viewport.Height = 172.000000000000000000
               end
             end
           end
@@ -5274,8 +5275,8 @@ object FormMain: TFormMain
                 Size.PlatformDefault = False
                 StyleLookup = 'memo_style'
                 TabOrder = 5
-                Viewport.Width = 726.000000000000000000
-                Viewport.Height = 176.000000000000000000
+                Viewport.Width = 722.000000000000000000
+                Viewport.Height = 172.000000000000000000
               end
             end
           end
@@ -6166,8 +6167,8 @@ object FormMain: TFormMain
                 Size.PlatformDefault = False
                 StyleLookup = 'memo_style'
                 TabOrder = 4
-                Viewport.Width = 485.000000000000000000
-                Viewport.Height = 420.000000000000000000
+                Viewport.Width = 481.000000000000000000
+                Viewport.Height = 416.000000000000000000
               end
               object LayoutFTCreate: TLayout
                 Align = Bottom
@@ -6312,8 +6313,8 @@ object FormMain: TFormMain
                 Size.PlatformDefault = False
                 StyleLookup = 'memo_style'
                 TabOrder = 5
-                Viewport.Width = 726.000000000000000000
-                Viewport.Height = 313.000000000000000000
+                Viewport.Width = 722.000000000000000000
+                Viewport.Height = 309.000000000000000000
               end
             end
           end
@@ -6474,8 +6475,8 @@ object FormMain: TFormMain
                 Size.PlatformDefault = False
                 StyleLookup = 'memo_style'
                 TabOrder = 5
-                Viewport.Width = 726.000000000000000000
-                Viewport.Height = 301.000000000000000000
+                Viewport.Width = 722.000000000000000000
+                Viewport.Height = 297.000000000000000000
               end
             end
           end
@@ -6817,8 +6818,8 @@ object FormMain: TFormMain
                 Size.PlatformDefault = False
                 StyleLookup = 'memo_style'
                 TabOrder = 5
-                Viewport.Width = 726.000000000000000000
-                Viewport.Height = 176.000000000000000000
+                Viewport.Width = 722.000000000000000000
+                Viewport.Height = 172.000000000000000000
               end
             end
           end
@@ -7152,8 +7153,8 @@ object FormMain: TFormMain
                   TabOrder = 5
                   ParentShowHint = False
                   ShowHint = True
-                  Viewport.Width = 380.000000000000000000
-                  Viewport.Height = 90.000000000000000000
+                  Viewport.Width = 376.000000000000000000
+                  Viewport.Height = 86.000000000000000000
                 end
               end
               object Layout20: TLayout
@@ -7696,8 +7697,8 @@ object FormMain: TFormMain
                 Size.PlatformDefault = False
                 StyleLookup = 'memo_style'
                 TabOrder = 5
-                Viewport.Width = 726.000000000000000000
-                Viewport.Height = 420.000000000000000000
+                Viewport.Width = 722.000000000000000000
+                Viewport.Height = 416.000000000000000000
               end
             end
           end
